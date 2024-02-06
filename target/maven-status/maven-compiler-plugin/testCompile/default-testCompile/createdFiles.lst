@@ -1,0 +1,11 @@
+com\entrata\pageObject\ResourcesPage.class
+com\entrata\testCases\TC_002_Resourses.class
+com\entrata\testCases\TC_003_Accounting.class
+com\entrata\testCases\TC_001_ContactUs.class
+com\entrata\utilities\Extentmanager.class
+com\entrata\testCases\BaseClass.class
+com\entrata\testCases\TC_004_VerifyTitleOfPage.class
+com\entrata\pageObject\VerifyTitlePage.class
+com\entrata\pageObject\AccountingPage.class
+com\entrata\pageObject\ContactUsPage.class
+com\entrata\utilities\ReadConfig.class

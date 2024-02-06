@@ -22,7 +22,7 @@ public class TC_002_Resourses extends BaseClass {
 		Thread.sleep(3000);
 		//click on Webinars link
 		rp.clickWebinar();
-		// get thr screen shot of webinars
+		// get the screen shot of webinars
 		captureScreen(driver, "Wibinars present");
 		
 	}

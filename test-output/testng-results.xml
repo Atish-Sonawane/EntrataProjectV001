@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T21:18:16 IST" name="Default suite" finished-at="2024-02-06T21:19:35 IST" duration-ms="79387">
+  <suite started-at="2024-02-06T22:28:39 IST" name="Suite" finished-at="2024-02-06T22:30:50 IST" duration-ms="130761">
     <groups>
     </groups>
-    <test started-at="2024-02-06T21:18:16 IST" name="Default test" finished-at="2024-02-06T21:19:35 IST" duration-ms="79387">
-      <class name="com.entrata.testCases.TC_003_Accounting">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2034b64c]" started-at="2024-02-06T21:18:16 IST" name="Beforesuite" finished-at="2024-02-06T21:18:16 IST" duration-ms="225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2034b64c]" started-at="2024-02-06T21:18:16 IST" name="setup" finished-at="2024-02-06T21:19:31 IST" duration-ms="74691" status="PASS">
+    <test started-at="2024-02-06T22:28:39 IST" name="Test" finished-at="2024-02-06T22:30:50 IST" duration-ms="130761">
+      <class name="com.entrata.testCases.TC_002_Resourses">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15043a2f]" started-at="2024-02-06T22:29:50 IST" name="setup" finished-at="2024-02-06T22:30:05 IST" duration-ms="15430" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,94 +18,86 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Accounting()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2034b64c]" started-at="2024-02-06T21:19:31 IST" name="Accounting" finished-at="2024-02-06T21:19:35 IST" duration-ms="4257" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <h3>...</h3> is not clickable at point (943, 46). Other element would receive the click: <div class="header-desktop-nav hide-on-mobile">...</div>
-  (Session info: chrome=121.0.6167.140)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82350d7bad0c7a8a5b7e33b263f6177d, clickElement {id=36A90BB84490E8B4ADFBA95A1BF74A12_element_51}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59988/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (82350d7bad0c7a8a5b7e33b263f6177d)] -> xpath: //h3[normalize-space()='Accounting']]
-Session ID: 82350d7bad0c7a8a5b7e33b263f6177d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h3>...</h3> is not clickable at point (943, 46). Other element would receive the click: <div class="header-desktop-nav hide-on-mobile">...</div>
-  (Session info: chrome=121.0.6167.140)
-Build info: version: '4.16.1', revision: '9b4c83354e'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82350d7bad0c7a8a5b7e33b263f6177d, clickElement {id=36A90BB84490E8B4ADFBA95A1BF74A12_element_51}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.140, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59988}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59988/devtoo..., se:cdpVersion: 121.0.6167.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (82350d7bad0c7a8a5b7e33b263f6177d)] -> xpath: //h3[normalize-space()='Accounting']]
-Session ID: 82350d7bad0c7a8a5b7e33b263f6177d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-at com.entrata.pageObject.AccountingPage.clickAccounting(AccountingPage.java:74)
-at com.entrata.testCases.TC_003_Accounting.Accounting(TC_003_Accounting.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="ReadResources()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15043a2f]" started-at="2024-02-06T22:30:05 IST" name="ReadResources" finished-at="2024-02-06T22:30:12 IST" duration-ms="6339" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Accounting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2034b64c]" started-at="2024-02-06T21:19:35 IST" name="tearDown" finished-at="2024-02-06T21:19:35 IST" duration-ms="400" status="PASS">
+        </test-method> <!-- ReadResources -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15043a2f]" started-at="2024-02-06T22:30:12 IST" name="tearDown" finished-at="2024-02-06T22:30:12 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2034b64c]" started-at="2024-02-06T21:19:35 IST" name="Aftersuite" finished-at="2024-02-06T21:19:35 IST" duration-ms="0" status="PASS">
+      </class> <!-- com.entrata.testCases.TC_002_Resourses -->
+      <class name="com.entrata.testCases.TC_003_Accounting">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@712625fd]" started-at="2024-02-06T22:28:39 IST" name="Beforesuite" finished-at="2024-02-06T22:28:39 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuite -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_003_Accounting@712625fd]" started-at="2024-02-06T22:28:39 IST" name="setup" finished-at="2024-02-06T22:28:54 IST" duration-ms="15257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Accounting()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@712625fd]" started-at="2024-02-06T22:28:54 IST" name="Accounting" finished-at="2024-02-06T22:29:28 IST" duration-ms="33526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accounting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@712625fd]" started-at="2024-02-06T22:29:28 IST" name="tearDown" finished-at="2024-02-06T22:29:28 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@712625fd]" started-at="2024-02-06T22:30:50 IST" name="Aftersuite" finished-at="2024-02-06T22:30:50 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->
       </class> <!-- com.entrata.testCases.TC_003_Accounting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.entrata.testCases.TC_004_VerifyTitleOfPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@4c60d6e9]" started-at="2024-02-06T22:29:28 IST" name="setup" finished-at="2024-02-06T22:29:44 IST" duration-ms="15210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@4c60d6e9]" started-at="2024-02-06T22:29:44 IST" name="verifyTitle" finished-at="2024-02-06T22:29:50 IST" duration-ms="6122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@4c60d6e9]" started-at="2024-02-06T22:29:50 IST" name="tearDown" finished-at="2024-02-06T22:29:50 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.testCases.TC_004_VerifyTitleOfPage -->
+      <class name="com.entrata.testCases.TC_001_ContactUs">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1349883]" started-at="2024-02-06T22:30:12 IST" name="setup" finished-at="2024-02-06T22:30:24 IST" duration-ms="11586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="contactDetails()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1349883]" started-at="2024-02-06T22:30:24 IST" name="contactDetails" finished-at="2024-02-06T22:30:49 IST" duration-ms="25894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1349883]" started-at="2024-02-06T22:30:49 IST" name="tearDown" finished-at="2024-02-06T22:30:50 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.entrata.testCases.TC_001_ContactUs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

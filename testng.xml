@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-  <parameter name="browser" value="chrome"></parameter>
-    <classes>
-      <class name="com.entrata.testCases.BaseClass"/>
-      <class name="com.entrata.testCases.TC_001_ContactUs"/>
-    </classes>
-  </test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="com.entrata.utilities.Extentmanager"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test">
+
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="com.entrata.testCases.TC_001_ContactUs" />
+			<class name="com.entrata.testCases.TC_002_Resourses" />
+			<class name="com.entrata.testCases.TC_003_Accounting" />
+			<class name="com.entrata.testCases.TC_004_VerifyTitleOfPage" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

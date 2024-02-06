@@ -18,7 +18,7 @@ public class AccountingPage {
 		PageFactory.initElements(idriver, this);
 	}
 	
-	@FindBy(xpath = "//h3[normalize-space()='Accounting']")
+	@FindBy(xpath = "//div[@title='Accounting Explore Link']")
 	@CacheLookup
 	WebElement lnkAccounting;
 
@@ -100,7 +100,7 @@ public class AccountingPage {
 	
 	public void setUnitCount(int num) {
 		Select dropdown = new Select(txtunitCount);
-		dropdown.deselectByIndex(num);
+		dropdown.selectByIndex(num);
 	}
 	
 	public void setJobTitle(String jtitle) {
