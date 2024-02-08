@@ -26,11 +26,6 @@ public class ReadConfig {
 	
 	//Fetch data from property file and stored in below methods
 	
-	public String getBrowserName() {
-		String browser = pro.getProperty("browser");
-		return browser;
-	}
-	
 	public String getApplicationURL() {
 		String url = pro.getProperty("baseURL");
 		return url;

@@ -1,0 +1,11 @@
+2024-02-08 23:33:38,787 [main] INFO entrata - ************* scroll to contact-us  *************
+2024-02-08 23:33:39,383 [main] INFO entrata - ************* providing the contact details *************
+2024-02-08 23:33:39,523 [main] INFO entrata - ************* screenshot saved *************
+2024-02-08 23:33:56,357 [main] INFO entrata - ************* alert is not present *************
+2024-02-08 23:33:57,221 [main] INFO entrata - ************* screenshot saved *************
+2024-02-08 23:34:08,430 [main] INFO entrata - ************* select Accounting *************
+2024-02-08 23:34:19,946 [main] INFO entrata - ************* click on Demo *************
+2024-02-08 23:34:21,472 [main] INFO entrata - ************* proving contact Details  *************
+2024-02-08 23:34:21,604 [main] INFO entrata - ************* screenshot is saved  *************
+2024-02-08 23:34:33,063 [main] INFO entrata - ************* get actual title  *************
+2024-02-08 23:34:33,066 [main] INFO entrata - ************* Testing pass *************

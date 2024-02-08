@@ -2,12 +2,12 @@
 <testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T23:03:23 IST" name="Suite" finished-at="2024-02-06T23:05:30 IST" duration-ms="126326">
+  <suite started-at="2024-02-08T23:33:13 IST" name="Suite" finished-at="2024-02-08T23:34:33 IST" duration-ms="79592">
     <groups>
     </groups>
-    <test started-at="2024-02-06T23:03:23 IST" name="Test" finished-at="2024-02-06T23:05:30 IST" duration-ms="126326">
+    <test started-at="2024-02-08T23:33:13 IST" name="Test" finished-at="2024-02-08T23:34:33 IST" duration-ms="79592">
       <class name="com.entrata.testCases.TC_003_Accounting">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2145b572]" started-at="2024-02-06T23:04:24 IST" name="setup" finished-at="2024-02-06T23:04:36 IST" duration-ms="11648" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_003_Accounting@58d75e99]" started-at="2024-02-08T23:33:57 IST" name="setup" finished-at="2024-02-08T23:34:08 IST" duration-ms="10859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Accounting()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2145b572]" started-at="2024-02-06T23:04:36 IST" name="Accounting" finished-at="2024-02-06T23:05:10 IST" duration-ms="34151" status="PASS">
+        <test-method signature="Accounting()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@58d75e99]" started-at="2024-02-08T23:34:08 IST" name="Accounting" finished-at="2024-02-08T23:34:21 IST" duration-ms="13269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Accounting -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@2145b572]" started-at="2024-02-06T23:05:10 IST" name="tearDown" finished-at="2024-02-06T23:05:10 IST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_003_Accounting@58d75e99]" started-at="2024-02-08T23:34:21 IST" name="tearDown" finished-at="2024-02-08T23:34:21 IST" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testCases.TC_003_Accounting -->
       <class name="com.entrata.testCases.TC_002_Resourses">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15eb5ee5]" started-at="2024-02-06T23:04:06 IST" name="setup" finished-at="2024-02-06T23:04:18 IST" duration-ms="11623" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_002_Resourses@5ba3f27a]" started-at="2024-02-08T23:33:39 IST" name="setup" finished-at="2024-02-08T23:33:56 IST" duration-ms="16441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,17 +39,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ReadResources()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15eb5ee5]" started-at="2024-02-06T23:04:18 IST" name="ReadResources" finished-at="2024-02-06T23:04:24 IST" duration-ms="6343" status="PASS">
+        <test-method signature="ReadResources()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@5ba3f27a]" started-at="2024-02-08T23:33:56 IST" name="ReadResources" finished-at="2024-02-08T23:33:57 IST" duration-ms="961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadResources -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@15eb5ee5]" started-at="2024-02-06T23:04:24 IST" name="tearDown" finished-at="2024-02-06T23:04:24 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_002_Resourses@5ba3f27a]" started-at="2024-02-08T23:33:57 IST" name="tearDown" finished-at="2024-02-08T23:33:57 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testCases.TC_002_Resourses -->
       <class name="com.entrata.testCases.TC_004_VerifyTitleOfPage">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@39529185]" started-at="2024-02-06T23:05:10 IST" name="setup" finished-at="2024-02-06T23:05:23 IST" duration-ms="12936" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@74751b3]" started-at="2024-02-08T23:34:21 IST" name="setup" finished-at="2024-02-08T23:34:32 IST" duration-ms="10805" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,21 +60,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@39529185]" started-at="2024-02-06T23:05:23 IST" name="verifyTitle" finished-at="2024-02-06T23:05:29 IST" duration-ms="6131" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@74751b3]" started-at="2024-02-08T23:34:32 IST" name="verifyTitle" finished-at="2024-02-08T23:34:33 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@39529185]" started-at="2024-02-06T23:05:29 IST" name="tearDown" finished-at="2024-02-06T23:05:30 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_004_VerifyTitleOfPage@74751b3]" started-at="2024-02-08T23:34:33 IST" name="tearDown" finished-at="2024-02-08T23:34:33 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.entrata.testCases.TC_004_VerifyTitleOfPage -->
       <class name="com.entrata.testCases.TC_001_ContactUs">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1725dc0f]" started-at="2024-02-06T23:03:23 IST" name="Beforesuite" finished-at="2024-02-06T23:03:23 IST" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@543588e6]" started-at="2024-02-08T23:33:13 IST" name="Beforesuite" finished-at="2024-02-08T23:33:13 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1725dc0f]" started-at="2024-02-06T23:03:23 IST" name="setup" finished-at="2024-02-06T23:03:36 IST" duration-ms="12912" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@543588e6]" started-at="2024-02-08T23:33:13 IST" name="setup" finished-at="2024-02-08T23:33:27 IST" duration-ms="14072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -85,15 +85,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactDetails()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1725dc0f]" started-at="2024-02-06T23:03:36 IST" name="contactDetails" finished-at="2024-02-06T23:04:06 IST" duration-ms="29515" status="PASS">
+        <test-method signature="contactDetails()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@543588e6]" started-at="2024-02-08T23:33:27 IST" name="contactDetails" finished-at="2024-02-08T23:33:39 IST" duration-ms="11684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1725dc0f]" started-at="2024-02-06T23:04:06 IST" name="tearDown" finished-at="2024-02-06T23:04:06 IST" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@543588e6]" started-at="2024-02-08T23:33:39 IST" name="tearDown" finished-at="2024-02-08T23:33:39 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@1725dc0f]" started-at="2024-02-06T23:05:30 IST" name="Aftersuite" finished-at="2024-02-06T23:05:30 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:com.entrata.testCases.TC_001_ContactUs@543588e6]" started-at="2024-02-08T23:34:33 IST" name="Aftersuite" finished-at="2024-02-08T23:34:33 IST" duration-ms="254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Aftersuite -->

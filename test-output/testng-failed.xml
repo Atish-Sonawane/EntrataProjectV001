@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.entrata.testCases.TC_003_Accounting">
+      <class name="com.entrata.testCases.TC_002_Resourses">
         <methods>
+          <include name="ReadResources"/>
           <include name="Aftersuite"/>
           <include name="setup"/>
           <include name="Beforesuite"/>
-          <include name="Accounting"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.entrata.testCases.TC_003_Accounting -->
+      </class> <!-- com.entrata.testCases.TC_002_Resourses -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

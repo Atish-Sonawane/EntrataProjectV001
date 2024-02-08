@@ -5,6 +5,7 @@ com\entrata\testCases\TC_001_ContactUs.class
 com\entrata\utilities\Extentmanager.class
 com\entrata\testCases\BaseClass.class
 com\entrata\testCases\TC_004_VerifyTitleOfPage.class
+com\entrata\utilities\waitUtils.class
 com\entrata\pageObject\VerifyTitlePage.class
 com\entrata\pageObject\AccountingPage.class
 com\entrata\pageObject\ContactUsPage.class

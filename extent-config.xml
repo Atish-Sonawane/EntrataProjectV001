@@ -11,13 +11,13 @@
 		<protocol>https</protocol>
 
 		<!-- title of the document -->
-		<documentTitle>Report inetBanking</documentTitle>
+		<documentTitle>Report EntrataProject</documentTitle>
 
 		<!-- report name - displayed at top-nav -->
 		<reportName>Automation Report</reportName>
 
 		<!-- report headline - displayed at top-nav, after reportHead- line -->
-		<reportHeadline>Automation Report Demo</reportHeadline>
+		<reportHeadline>Automation Testing</reportHeadline>
 
 		<!-- global date format override --> <!-- defaults to yyyy-MM-dd -->
 		<dateFormat>yyyy-MM-dd</dateFormat>

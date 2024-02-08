@@ -1,5 +1,7 @@
 package com.entrata.pageObject;
 
+import java.time.Duration;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,15 +10,21 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.entrata.utilities.waitUtils;
+
 public class ContactUsPage {
+
 	WebDriver driver;
+	waitUtils wait;
 
 	// Initializing the WebDriver object
 	public ContactUsPage(WebDriver idriver) {
 		this.driver = idriver;
-		PageFactory.initElements(idriver, this);
+		PageFactory.initElements(driver, this);
+		wait = new waitUtils(driver);
 	}
-	// Stored the all elements ion WebElements that require for the contact-Us test case
+
+	// locate all the elements in WebElements
 
 	@FindBy(xpath = "//a[@class='button-default outline-dark-button']")
 	@CacheLookup
@@ -62,22 +70,25 @@ public class ContactUsPage {
 	@CacheLookup
 	WebElement yourElement;
 
-	// Do the required actions and pass the value through parameterization if
-	
+	// Creating a Method and do required actions, passing the values through parameterization if required
+
 	public void scrollToElement() {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView(true);", yourElement);
+		js.executeScript("arguments[0].scrollIntoView(true);", yourElement); // Scroll to particular element
 	}
 
 	public void clickSignIn() {
+		wait.waitForElement(buttonSignIn, Duration.ofSeconds(10));
 		buttonSignIn.click();
 	}
 
 	public void clickResidentLogin() {
+		wait.waitForElement(linkResidentLogin, Duration.ofSeconds(10));
 		linkResidentLogin.click();
 	}
 
 	public void clickviewWebsite() {
+		wait.waitForElement(buttonViewWebsite, Duration.ofSeconds(10));
 		buttonViewWebsite.click();
 	}
 
@@ -99,7 +110,7 @@ public class ContactUsPage {
 
 	public void getCategory(String valueToSelect) {
 		Select dropdown = new Select(ddCategory);
-		dropdown.selectByVisibleText(valueToSelect);
+		dropdown.selectByVisibleText(valueToSelect); // Select dropDown by visibleText
 	}
 
 	public void getMessage(String message) {

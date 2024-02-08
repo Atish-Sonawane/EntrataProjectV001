@@ -2,10 +2,12 @@ package com.entrata.testCases;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.OutputType;
@@ -13,6 +15,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -28,10 +32,10 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseClass {
 
 	ReadConfig readconfig = new ReadConfig();
-	// public String br = readconfig.getBrowserName();
-	public String baseURL = readconfig.getApplicationURL();
+	public String baseURL = readconfig.getApplicationURL(); // store URL in baseURL
 
 	public static WebDriver driver;
+	public static Logger logger;
 
 	@BeforeSuite // Run before suite
 	public void Beforesuite() {
@@ -43,11 +47,14 @@ public class BaseClass {
 		Extentmanager.onFinish();
 	}
 
-	@Parameters("browser")
+	@Parameters("browser") // Parameterize the browser
 	@BeforeClass
 	public void setup(@Optional("chrome") String browser) throws InterruptedException {
+		
+		logger = Logger.getLogger("entrata");
+		PropertyConfigurator.configure("Log4j.properties");
 
-		// Invoke the browser as per mentioned in config.properties file
+		// Invoke the browser as per mentioned in testng.xml file
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -57,25 +64,29 @@ public class BaseClass {
 			driver = new ChromeDriver();
 		}
 
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); // maximize the window
 		driver.get(baseURL); // Opening url
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // use implicitWait for wait
-
 		
-		// Handling cookies pop-up getting when fetch the URL
+
+		//use try catch for handle cookies
 		try {
 
-			WebElement element = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div[3]/div[2]/button[2]"));
-			if (element.isDisplayed()) {
-				element.click();
-			}
+			// Set up an explicit wait with a maximum timeout of 10 seconds
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+			// Use the explicit wait to wait until the element is present on the page
+			WebElement element = wait.until(ExpectedConditions
+					.presenceOfElementLocated(By.xpath("/html/body/div[1]/div[1]/div/div[3]/div[2]/button[2]")));
+
+			// Perform actions with the element after it becomes present
+			element.click();
 		} catch (Exception e) {
-			System.out.println("Exception: " + e.getMessage());
+			// Handle exceptions if the element is not found within the specified timeout
+			e.printStackTrace();
 		}
-		System.out.println("Accept cooikies");
-		Thread.sleep(3000);
+		
+		System.out.println("Cookies Accepted");
 	}
-	
 	
 
 	// Run after every class and close the opening browser
@@ -107,7 +118,7 @@ public class BaseClass {
 	}
 
 	// use to check alert is present or not
-	public boolean isAlertPresent() // user defined method created to check alert is present or not
+	public boolean isAlertPresent() 
 	{
 		try {
 			driver.switchTo().alert();
