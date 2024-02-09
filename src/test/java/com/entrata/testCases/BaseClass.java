@@ -51,6 +51,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup(@Optional("chrome") String browser) throws InterruptedException {
 		
+		// configure log4j.properties
 		logger = Logger.getLogger("entrata");
 		PropertyConfigurator.configure("Log4j.properties");
 
