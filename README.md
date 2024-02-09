@@ -194,5 +194,5 @@ If you have any feedback, please reach out to us at
 
 Contributions are always welcome!
 
-f you'd like to contribute to the framework, please fork the repository and create a pull request.
+If you'd like to contribute to the framework, please fork the repository and create a pull request.
 
