@@ -42,3 +42,23 @@
 2024-02-28 08:32:00,058 - entrata -INFO - ************* alert is not present *************
 2024-02-28 08:37:29,883 - entrata -INFO - ************* alert is not present *************
 2024-02-28 08:37:30,308 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 09:00:20,289 - entrata -INFO - ************* scroll to contact-us  *************
+2024-02-28 09:00:20,809 - entrata -INFO - ************* providing the contact details *************
+2024-02-28 09:00:20,952 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 09:01:32,554 - entrata -INFO - ************* alert is not present *************
+2024-02-28 09:01:32,800 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 09:02:29,847 - entrata -INFO - ************* select Accounting *************
+2024-02-28 09:02:40,668 - entrata -INFO - ************* click on Demo *************
+2024-02-28 09:02:41,040 - entrata -INFO - ************* proving random mail *************
+2024-02-28 09:02:41,178 - entrata -INFO - ************* proving contact Details  *************
+2024-02-28 09:02:41,289 - entrata -INFO - ************* screenshot is saved  *************
+2024-02-28 09:03:21,393 - entrata -INFO - ************* get actual title  *************
+2024-02-28 09:03:21,396 - entrata -INFO - ************* Testing pass *************
+2024-02-28 09:09:00,540 - entrata -INFO - ************* scroll to contact-us  *************
+2024-02-28 09:09:01,061 - entrata -INFO - ************* providing the contact details *************
+2024-02-28 09:09:01,591 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 09:09:44,886 - entrata -INFO - ************* alert is not present *************
+2024-02-28 09:09:46,112 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 09:10:11,568 - entrata -INFO - ************* select Accounting *************
+2024-02-28 09:11:00,267 - entrata -INFO - ************* get actual title  *************
+2024-02-28 09:11:00,271 - entrata -INFO - ************* Testing pass *************

@@ -42,3 +42,23 @@
 2024-02-28 08:32:00,058 [main] INFO entrata - ************* alert is not present *************
 2024-02-28 08:37:29,883 [main] INFO entrata - ************* alert is not present *************
 2024-02-28 08:37:30,308 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:00:20,289 [main] INFO entrata - ************* scroll to contact-us  *************
+2024-02-28 09:00:20,809 [main] INFO entrata - ************* providing the contact details *************
+2024-02-28 09:00:20,952 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:01:32,554 [main] INFO entrata - ************* alert is not present *************
+2024-02-28 09:01:32,800 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:02:29,847 [main] INFO entrata - ************* select Accounting *************
+2024-02-28 09:02:40,668 [main] INFO entrata - ************* click on Demo *************
+2024-02-28 09:02:41,040 [main] INFO entrata - ************* proving random mail *************
+2024-02-28 09:02:41,178 [main] INFO entrata - ************* proving contact Details  *************
+2024-02-28 09:02:41,289 [main] INFO entrata - ************* screenshot is saved  *************
+2024-02-28 09:03:21,393 [main] INFO entrata - ************* get actual title  *************
+2024-02-28 09:03:21,396 [main] INFO entrata - ************* Testing pass *************
+2024-02-28 09:09:00,540 [main] INFO entrata - ************* scroll to contact-us  *************
+2024-02-28 09:09:01,061 [main] INFO entrata - ************* providing the contact details *************
+2024-02-28 09:09:01,591 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:09:44,886 [main] INFO entrata - ************* alert is not present *************
+2024-02-28 09:09:46,112 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:10:11,568 [main] INFO entrata - ************* select Accounting *************
+2024-02-28 09:11:00,267 [main] INFO entrata - ************* get actual title  *************
+2024-02-28 09:11:00,271 [main] INFO entrata - ************* Testing pass *************
