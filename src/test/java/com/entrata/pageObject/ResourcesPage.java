@@ -24,17 +24,17 @@ public class ResourcesPage {
 
 	// locate all the elements in WebElements
 
-	@FindBy(xpath = "//a[@class='main-nav-link']")
+	@FindBy(xpath = "(//div[@class='main-nav-link'])[3]")
 	@CacheLookup
 	WebElement resources;
 
-	@FindBy(xpath = "//div[@class='tab-nav-item webinars-tab']")
+	@FindBy(xpath = "//div[@class='header-drop-nav']//a[@class='fat-nav-links'][normalize-space()='Webinars']")
 	@CacheLookup
 	WebElement webinars;
 
 	// Creating a Method and do required action
 
-	public void clicResources() {
+	public void clickResources() {
 		wait.waitForElement(resources, Duration.ofSeconds(10));
 		resources.click();
 	}

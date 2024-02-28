@@ -9,3 +9,36 @@
 2024-02-08 23:34:21,604 - entrata -INFO - ************* screenshot is saved  *************
 2024-02-08 23:34:33,063 - entrata -INFO - ************* get actual title  *************
 2024-02-08 23:34:33,066 - entrata -INFO - ************* Testing pass *************
+2024-02-13 18:18:27,221 - entrata -INFO - ************* select Accounting *************
+2024-02-13 18:18:44,660 - entrata -INFO - ************* alert is not present *************
+2024-02-13 18:18:50,680 - entrata -INFO - ************* scroll to contact-us  *************
+2024-02-13 18:18:51,171 - entrata -INFO - ************* providing the contact details *************
+2024-02-13 18:18:51,302 - entrata -INFO - ************* screenshot saved *************
+2024-02-13 18:24:12,375 - entrata -INFO - ************* alert is not present *************
+2024-02-13 18:24:13,155 - entrata -INFO - ************* screenshot saved *************
+2024-02-13 18:24:45,286 - entrata -INFO - ************* get actual title  *************
+2024-02-13 18:24:45,293 - entrata -INFO - ************* Testing pass *************
+2024-02-13 18:35:23,391 - entrata -INFO - ************* alert is not present *************
+2024-02-13 18:35:29,362 - entrata -INFO - ************* scroll to contact-us  *************
+2024-02-13 18:35:29,920 - entrata -INFO - ************* providing the contact details *************
+2024-02-13 18:35:30,049 - entrata -INFO - ************* screenshot saved *************
+2024-02-13 18:40:44,065 - entrata -INFO - ************* select Accounting *************
+2024-02-13 18:40:53,366 - entrata -INFO - ************* click on Demo *************
+2024-02-13 18:40:54,790 - entrata -INFO - ************* proving contact Details  *************
+2024-02-13 18:40:54,976 - entrata -INFO - ************* screenshot is saved  *************
+2024-02-28 08:18:07,910 - entrata -INFO - ************* scroll to contact-us  *************
+2024-02-28 08:18:08,727 - entrata -INFO - ************* providing the contact details *************
+2024-02-28 08:18:08,894 - entrata -INFO - ************* screenshot saved *************
+2024-02-28 08:18:46,129 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:19:23,271 - entrata -INFO - ************* select Accounting *************
+2024-02-28 08:19:31,816 - entrata -INFO - ************* click on Demo *************
+2024-02-28 08:19:32,696 - entrata -INFO - ************* proving contact Details  *************
+2024-02-28 08:19:32,848 - entrata -INFO - ************* screenshot is saved  *************
+2024-02-28 08:20:03,689 - entrata -INFO - ************* get actual title  *************
+2024-02-28 08:20:03,695 - entrata -INFO - ************* Testing pass *************
+2024-02-28 08:22:10,318 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:29:10,606 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:30:45,775 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:32:00,058 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:37:29,883 - entrata -INFO - ************* alert is not present *************
+2024-02-28 08:37:30,308 - entrata -INFO - ************* screenshot saved *************

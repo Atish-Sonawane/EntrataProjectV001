@@ -12,7 +12,7 @@ public class TC_002_Resourses extends BaseClass {
 		// create a object ResourcesPage
 		ResourcesPage rp = new ResourcesPage(driver);
 
-		rp.clicResources();
+		rp.clickResources();
 		
 		if (isAlertPresent() == true) {            // handle the alert if present
 			driver.switchTo().alert().dismiss();   // close alert
