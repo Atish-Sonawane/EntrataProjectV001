@@ -28,7 +28,7 @@ public class Extentmanager extends TestListenerAdapter {
 		//We adding a timeStamp to create new report without washing previous one
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String reportname = "Test-Teport" + timestamp + ".html";
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/Report/myRepot");
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/Report/myReport.html");
 		
         //Set the headline and theme
 		htmlReporter.config().setDocumentTitle("InetBanking test project");

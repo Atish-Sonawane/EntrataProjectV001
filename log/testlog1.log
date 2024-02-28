@@ -62,3 +62,16 @@
 2024-02-28 09:10:11,568 [main] INFO entrata - ************* select Accounting *************
 2024-02-28 09:11:00,267 [main] INFO entrata - ************* get actual title  *************
 2024-02-28 09:11:00,271 [main] INFO entrata - ************* Testing pass *************
+2024-02-28 09:49:36,619 [main] INFO entrata - ************* scroll to contact-us  *************
+2024-02-28 09:49:37,630 [main] INFO entrata - ************* providing the contact details *************
+2024-02-28 09:49:38,283 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:50:29,910 [main] INFO entrata - ************* alert is not present *************
+2024-02-28 09:50:30,311 [main] INFO entrata - ************* screenshot saved *************
+2024-02-28 09:51:05,978 [main] INFO entrata - ************* select Accounting *************
+2024-02-28 09:52:38,698 [main] INFO entrata - ************* get actual title  *************
+2024-02-28 09:52:38,703 [main] INFO entrata - ************* Testing pass *************
+2024-02-28 09:57:53,544 [main] INFO entrata - ************* select Accounting *************
+2024-02-28 09:58:27,815 [main] INFO entrata - ************* click on Demo *************
+2024-02-28 09:58:28,651 [main] INFO entrata - ************* proving random mail *************
+2024-02-28 09:58:28,922 [main] INFO entrata - ************* proving contact Details  *************
+2024-02-28 09:58:29,139 [main] INFO entrata - ************* screenshot is saved  *************
